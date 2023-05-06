@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+section {
+  height: calc(100vh - 6px);
+}
+#presentation {
+  background-color: bisque;
+}
+#skills {
+  background-color: rgb(233, 233, 233);
+}
+#projects {
+  background-color: antiquewhite;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
